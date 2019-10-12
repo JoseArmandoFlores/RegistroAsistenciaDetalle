@@ -82,7 +82,7 @@
             this.asistenciasToolStripMenuItem1.Name = "asistenciasToolStripMenuItem1";
             this.asistenciasToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.asistenciasToolStripMenuItem1.Text = "Asistencias";
-            this.asistenciasToolStripMenuItem1.Click += new System.EventHandler(this.EmpleadosToolStripMenuItem1_Click);
+            this.asistenciasToolStripMenuItem1.Click += new System.EventHandler(this.AsistenciaToolStripMenuItem1_Click);
             // 
             // asignaturasToolStripMenuItem
             // 
@@ -96,7 +96,7 @@
             this.estudiantesToolStripMenuItem.Name = "estudiantesToolStripMenuItem";
             this.estudiantesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.estudiantesToolStripMenuItem.Text = "Estudiantes";
-            this.estudiantesToolStripMenuItem.Click += new System.EventHandler(this.EstudiantesToolStripMenuItem_Click);
+            this.estudiantesToolStripMenuItem.Click += new System.EventHandler(this.AsistenciaToolStripMenuItem_Click);
             // 
             // estudiantesDetalleToolStripMenuItem
             // 

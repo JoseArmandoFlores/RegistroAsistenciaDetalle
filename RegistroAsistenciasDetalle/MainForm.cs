@@ -33,14 +33,14 @@ namespace RegistroAsistenciasDetalle
             asignaturas.Show();
         }
 
-        private void EmpleadosToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void AsistenciaToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             cAsistencias asistencia = new cAsistencias();
             asistencia.MdiParent = this;
             asistencia.Show();
         }
 
-        private void EstudiantesToolStripMenuItem_Click(object sender, EventArgs e)
+        private void AsistenciaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             cEstudiantes estudiante = new cEstudiantes();
             estudiante.MdiParent = this;
